@@ -1,0 +1,45 @@
+/* @media */
+
+@media screen and (max-width:568px) {
+
+    body{
+        background:url(../images/bg-mobile.svg)no-repeat;
+        width: 400px;
+        margin: 30px auto;
+    }
+
+        img{
+            max-width: 100%;
+        }
+
+        .container{
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .info-texto {
+            font-size: .2rem;
+            text-align: center;
+            margin: 0;
+            margin-top: 40px;
+        }
+
+        h1 {
+            font-size: 2rem;
+        }
+
+        button {
+            width: 50%;
+        }
+        .footer {
+            justify-content: center;
+        }
+
+        .footer a{
+            width: 2rem;
+            height: 2rem;
+            font-size: 1rem;
+            margin-top: 3rem;
+        }
+}
